@@ -59,7 +59,7 @@ docker compose ps
 
 Ожидается, что запущены:
 
-- `postgres` (`5432`)
+- `postgres` (`5433`)
 - `clickhouse` (`8123`, `9000`)
 - `rabbitmq` (`5672`, `15672`)
 
@@ -209,4 +209,3 @@ docker compose down -v
   - Swagger
   - `docker-compose.yml`
   - SQL-скрипты для PostgreSQL и ClickHouse
-
